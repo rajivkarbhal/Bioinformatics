@@ -860,8 +860,6 @@ Addition of description
         </names>
         <xref>
         <primaryRef db="refseq" dbAc="MI:0481" id="b1015" refType="identity" refTypeAc="MI:0356"/>
-          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="945602" refType="identity" refTypeAc="MI:0356"/>
-          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="945602" refType="identity" refTypeAc="MI:0356"/>
           <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74100" refType="identity" refTypeAc="MI:0356"/>
           <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74100.1" refType="identity" refTypeAc="MI:0356"/>
           <secondaryRef db="refseq" dbAc="MI:0481" id="ABE-0003433" refType="identity" refTypeAc="MI:0356"/>
