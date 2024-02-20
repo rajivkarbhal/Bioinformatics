@@ -176,7 +176,7 @@ REMARK 200
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
 REMARK 200 SOFTWARE USED: CNS                                                   
-REMARK 200 STARTING MODEL: PDB ENTRY 1RDR                                       
+REMARK 200 STARTING MODEL: PDB ENTRY 1RDR AND HHH                                     
 REMARK 200                                                                      
 REMARK 200 REMARK: NULL                                                         
 REMARK 280                                                                      
