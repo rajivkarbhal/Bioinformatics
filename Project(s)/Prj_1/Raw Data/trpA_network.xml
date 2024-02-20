@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<entrySet level="2" version="5" xmlns="net:sf:psidev:mi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="net:sf:psidev:mi http://psidev.sourceforge.net/mi/rel25/src/MIF25.xsd">
+  <entry>
+    <experimentList>
+      <experimentDescription id="7">
+        <names>
+          <shortLabel>automated_textmining</shortLabel>
+          <fullName>Unsupervised, automated mining of biomedical texts: analysis of protein-protein co-mentioning</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="15808823"/>
+            <secondaryRef db="pubmed" id="16046493"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>predictive text mining</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0087"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="6">
+        <names>
+          <shortLabel>knowledge datamining</shortLabel>
+          <fullName>Import of protein-protein association information from curated knowledge databases</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="14681412"/>
+            <secondaryRef db="pubmed" id="15608231"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>experimental knowledge based</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0046"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="5">
+        <names>
+          <shortLabel>experimental_interaction_data</shortLabel>
+          <fullName>Global analysis of protein-protein interaction data, obtained from the literature and from large-scale datasets (BIND database)</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="15608229"/>
+            <secondaryRef db="pubmed" id="15193308"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>experimental knowledge based</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0046"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="4">
+        <names>
+          <shortLabel>gene_coexpression</shortLabel>
+          <fullName>Combined analysis of available microarray data, co-expression analysis</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="9843981"/>
+            <secondaryRef db="pubmed" id="12934013"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>coexpression</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:2231"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="3">
+        <names>
+          <shortLabel>gene_cooccurence</shortLabel>
+          <fullName>Analysis of presence/absence patterns of genes in genomes: functional partners co-occur</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="10200254"/>
+            <secondaryRef db="pubmed" id="12519996"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>sequence based phylogenetic profile</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0100"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="2">
+        <names>
+          <shortLabel>gene_fusion_events</shortLabel>
+          <fullName>Detection of gene fusion events: functional linkage inferred for the separate components in other genomes</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="10427000"/>
+            <secondaryRef db="pubmed" id="12519996"/>
+            <secondaryRef db="pubmed" id="10573422"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>domain fusion</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0036"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="1">
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="10077608"/>
+            <secondaryRef db="pubmed" id="12519996"/>
+            <secondaryRef db="pubmed" id="9787636"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>gene neighborhoods</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0057"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="0">
+        <names>
+          <shortLabel>combined_confidence</shortLabel>
+          <fullName>Probabilistic, benchmarked integration of all evidence types: combined confidence score of predicted functional association (range 0.0 to 1.0)</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="15608232"/>
+            <secondaryRef db="pubmed" id="12519996"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+    </experimentList>
+    <interactorList>      <interactor id="101">
+        <names>
+          <shortLabel>trpA</shortLabel>
+          <fullName>Tryptophan synthase, alpha subunit; The alpha subunit is responsible for the aldol cleavage of indoleglycerol phosphate to indole and glyceraldehyde 3-phosphate; Belongs to the TrpA family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="b1260" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="1V7Y" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="1WQ5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="1XC4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="1XCF" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="4.2.1.20" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4.2.1.20" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="946204" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="946204" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74342" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74342.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ABE-0004232" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 4.2.1.20" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ECK1254" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="EG11024" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="JW1252" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="JW1252" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NC_000913.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_415776" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_415776.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NZ_SSZK01000031.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P00928" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="P0A877" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P0A877" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Q47669" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="TRPA_ECOLI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="TrpA" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Tryptophan synthase alpha chain" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Tryptophan synthase alpha chain" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Tryptophan synthase subunit alpha" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="Tryptophan synthase, alpha subunit" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="WP_000443067.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="b1260" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1260" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1260" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="b1260" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="eco:b1260" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="trpA" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="trpA" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="try" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="tryp" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="tryptophan synthase, alpha subunit" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="102">
+        <names>
+          <shortLabel>trpB</shortLabel>
+          <fullName>Tryptophan synthase, beta subunit; The beta subunit is responsible for the synthesis of L- tryptophan from indole and L-serine; Belongs to the TrpB family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="b1261" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="2DH5" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="2DH6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="4.2.1.20" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4.2.1.20" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="945768" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="945768" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74343" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74343.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ABE-0004234" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 4.2.1.20" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ECK1255" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="EG11025" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="JW1253" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="JW1253" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NC_000913.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_415777" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_415777.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NZ_STEB01000005.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P00932" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="P0A879" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P0A879" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P78146" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="TRPB_ECOLI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="TrpB" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Tryptophan synthase beta chain" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Tryptophan synthase beta chain" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Tryptophan synthase subunit beta" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="Tryptophan synthase, beta subunit" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="WP_000209520.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="b1261" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1261" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1261" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="b1261" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="eco:b1261" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="trpB" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="trpB" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="tryptophan synthase, beta subunit" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="103">
+        <names>
+          <shortLabel>trpC</shortLabel>
+          <fullName>Indole-3-glycerolphosphate synthetase and N-(5-phosphoribosyl)anthranilate isomerase; Bifunctional enzyme that catalyzes two sequential steps of tryptophan biosynthetic pathway. The first reaction is catalyzed by the isomerase, coded by the TrpF domain; the second reaction is catalyzed by the synthase, coded by the TrpC domain.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="b1262" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="1JCM" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="1PII" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="2KZH" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="4.1.1.48" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4.1.1.48" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="5.3.1.24" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="5.3.1.24" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="945519" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="945519" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74344" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74344.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ABE-0004238" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 4.1.1.48" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 5.3.1.24" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ECK1256" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="EG11026" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="IGPS" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Indole-3-glycerol phosphate synthase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="JW1254" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="JW1254" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="N-(5&#x27;-phospho-ribosyl)anthranilate isomerase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NC_000913.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_415778" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_415778.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="P00909" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P00909" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P78059" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P78234" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P94704" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="PRAI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="TRPC_ECOLI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="TrpC" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Tryptophan biosynthesis protein TrpCF" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="b1262" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1262" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1262" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="b1262" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="eco:b1262" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="trpC" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="trpC" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="trpF" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="trpF" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="104">
+        <names>
+          <shortLabel>trpD</shortLabel>
+          <fullName>Anthranilate phosphoribosyltransferase; Part of a heterotetrameric complex that catalyzes the two- step biosynthesis of anthranilate, an intermediate in the biosynthesis of L-tryptophan. In the first step, the glutamine-binding beta subunit (TrpG) of anthranilate synthase (AS) provides the glutamine amidotransferase activity which generates ammonia as a substrate that, along with chorismate, is used in the second step, catalyzed by the large alpha subunit of AS (TrpE) to produce anthranilate. In the absence of TrpG, TrpE can synthesize anthranilate directly from chorismate and high con [...] </fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="b1263" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="2.4.2.18" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="2.4.2.18" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="4.1.3.27" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4.1.3.27" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="945109" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="945109" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74345" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74345.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ABE-0004241" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="AS" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ASII" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Anthranilate phosphoribosyltransferase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Anthranilate synthase component 2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Anthranilate synthase subunit TrpD" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Anthranilate synthase/phosphoribosyltransferase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Bifunctional protein TrpGD" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 2.4.2.18" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 4.1.3.27" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ECK1257" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="EG11027" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="JW1255" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="JW1255" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NC_000913.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_415779" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_415779.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NZ_STEB01000005.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="P00904" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P00904" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P76833" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P76835" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P78302" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="TRPGD_ECOLI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="TrpD" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="WP_000763511.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="b1263" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1263" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1263" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="b1263" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="eco:b1263" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="trpD" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="trpD" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="trpGD" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="trpGD" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="105">
+        <names>
+          <shortLabel>trpE</shortLabel>
+          <fullName>Component I of anthranilate synthase; Part of a heterotetrameric complex that catalyzes the two- step biosynthesis of anthranilate, an intermediate in the biosynthesis of L-tryptophan. In the first step, the glutamine-binding beta subunit (TrpG) of anthranilate synthase (AS) provides the glutamine amidotransferase activity which generates ammonia as a substrate that, along with chorismate, is used in the second step, catalyzed by the large alpha subunit of AS (TrpE) to produce anthranilate. In the absence of TrpG, TrpE can synthesize anthranilate directly from chorismate and high conce [...] </fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="b1264" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="4.1.3.27" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4.1.3.27" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="945846" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="945846" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74346" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74346.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ABE-0004244" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="AS" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ASI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Anthranilate synthase component 1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Anthranilate synthase component I" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Anthranilate synthase subunit TrpE" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="Component I of anthranilate synthase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 4.1.3.27" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ECK1258" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="EG11028" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="JW1256" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="JW1256" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NC_000913.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_415780" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_415780.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NZ_SSZK01000031.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="P00895" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P00895" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P78249" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="TRPE_ECOLI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="TrpE" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="WP_001194582.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="anth" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="b1264" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1264" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1264" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="b1264" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="component I of anthranilate synthase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="eco:b1264" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="trpE" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="trpE" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="tryD" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="tryp-4" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="106">
+        <names>
+          <shortLabel>pabB</shortLabel>
+          <fullName>Aminodeoxychorismate synthase, subunit I; Part of a heterodimeric complex that catalyzes the two-step biosynthesis of 4-amino-4-deoxychorismate (ADC), a precursor of p- aminobenzoate (PABA) and tetrahydrofolate. In the first step, a glutamine amidotransferase (PabA) generates ammonia as a substrate that, along with chorismate, is used in the second step, catalyzed by aminodeoxychorismate synthase (PabB) to produce ADC. PabB, in the absence of PabA, can catalyze the formation of ADC in the presence of exogenous ammonia.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="b1812" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="1K0E" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="1K0G" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="2.6.1.85" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="2.6.1.85" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4-amino-4-deoxychorismate synthase component 1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="946337" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="946337" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74882" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74882.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ABE-0006031" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ADC synthase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ADCS" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Aminodeoxychorismate synthase component 1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Aminodeoxychorismate synthase subunit 1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="Aminodeoxychorismate synthase, subunit I" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 2.6.1.85" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ECK1810" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="EG10683" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="JW1801" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="JW1801" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NC_000913.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_416326" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_416326.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="P05041" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P05041" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="PABB_ECOLI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="PabB" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Para-aminobenzoate synthetase component I" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="aminodeoxychorismate synthase, subunit I" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="b1812" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1812" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1812" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="b1812" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="eco:b1812" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="pabB" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="pabB" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="107">
+        <names>
+          <shortLabel>glyA</shortLabel>
+          <fullName>Serine hydroxymethyltransferase; Catalyzes the reversible interconversion of serine and glycine with tetrahydrofolate (THF) serving as the one-carbon carrier. This reaction serves as the major source of one-carbon groups required for the biosynthesis of purines, thymidylate, methionine, and other important biomolecules. Also exhibits THF-independent aldolase activity toward beta-hydroxyamino acids, producing glycine and aldehydes, via a retro-aldol mechanism. Thus, is able to catalyze the cleavage of allothreonine and 3-phenylserine. Also catalyzes the irreversible conversion of 5,10-m [...] </fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="b2551" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="1DFO" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="1EQB" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="2.1.2.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="2.1.2.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="3G8M" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="947022" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="947022" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC75604" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC75604.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ABE-0008389" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 2.1.2.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ECK2548" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="EG10408" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="GLYA_ECOLI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="GlyA" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Glycine hydroxymethyltransferase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="JW2535" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="JW2535" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NC_000913.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_417046" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_417046.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NZ_STEB01000011.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P00477" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="P0A825" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P0A825" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="SHMT" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Serine hydroxymethyltransferase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="Serine hydroxymethyltransferase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Serine hydroxymethyltransferase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Serine methylase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="WP_000919159.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="b2551" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b2551" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b2551" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="b2551" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="eco:b2551" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="glyA" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="glyA" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="serine hydroxymethyltransferase" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="108">
+        <names>
+          <shortLabel>tnaA</shortLabel>
+          <fullName>tryptophanase/L-cysteine desulfhydrase, PLP-dependent; Tryptophanase; Protein involved in cellular amino acid catabolic process; Belongs to the beta-eliminating lyase family.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="b3708" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="2C44" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="2OQX" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="2V0Y" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="2V1P" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="4.1.99.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4.1.99.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4UP2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4W1Y" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4W4H" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="5D8G" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="948221" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="948221" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC76731" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC76731.2" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ABE-0012133" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 4.1.99.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ECK3701" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="EG11005" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="JW3686" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="JW3686" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="L-tryptophan indole-lyase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NC_000913.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_418164" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_418164.4" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NZ_STEB01000015.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P00913" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="P0A853" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P0A853" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P78123" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Q2M822" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="TNAA_ECOLI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="TNase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="TnaA" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Tryptophanase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Tryptophanase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="WP_001295247.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="b3708" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b3708" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b3708" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="b3708" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="eco:b3708" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ind" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ind" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="tnaA" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="tnaA" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="109">
+        <names>
+          <shortLabel>tdcB</shortLabel>
+          <fullName>L-threonine dehydratase, catabolic; Catalyzes the anaerobic formation of alpha-ketobutyrate and ammonia from threonine in a two-step reaction. The first step involved a dehydration of threonine and a production of enamine intermediates (aminocrotonate), which tautomerizes to its imine form (iminobutyrate). Both intermediates are unstable and short-lived. The second step is the nonenzymatic hydrolysis of the enamine/imine intermediates to form 2- ketobutyrate and free ammonia. In the low water environment of the cell, the second step is accelerated by RidA. TdcB also dehydrates serine t [...] </fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="b3117" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4.3.1.17" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="4.3.1.19" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4.3.1.19" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="947633" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="947633" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC76152" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC76152.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ABE-0010249" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Catabolic threonine dehydratase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 4.3.1.19" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ECK3106" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="EG10990" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="JW3088" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="JW3088" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="L-serine dehydratase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="L-threonine dehydratase catabolic TdcB" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="L-threonine dehydratase, catabolic" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NC_000913.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_417587" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_417587.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NZ_STEB01000001.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P05792" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="P0AGF6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P0AGF6" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Q2M990" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="TDCB_ECOLI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="TdcB" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Threonine deaminase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Threonine dehydratase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="WP_000548347.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="b3117" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b3117" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b3117" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="b3117" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="eco:b3117" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="tdcB" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="tdcB" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="110">
+        <names>
+          <shortLabel>ilvA</shortLabel>
+          <fullName>L-threonine dehydratase, biosynthetic; Catalyzes the anaerobic formation of alpha-ketobutyrate and ammonia from threonine in a two-step reaction. The first step involved a dehydration of threonine and a production of enamine intermediates (aminocrotonate), which tautomerizes to its imine form (iminobutyrate). Both intermediates are unstable and short-lived. The second step is the nonenzymatic hydrolysis of the enamine/imine intermediates to form 2- ketobutyrate and free ammonia. In the low water environment of the cell, the second step is accelerated by RidA.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="b3772" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="1TDJ" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="4.3.1.19" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="4.3.1.19" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="948287" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="948287" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC77492" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC77492.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ABE-0012321" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_EC" dbAc="MI:9999" id="EC 4.3.1.19" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ECK3764" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="EG10493" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ILVA_ECOLI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="IlvA" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="JW3745" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="JW3745" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="L-threonine dehydratase biosynthetic IlvA" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="L-threonine dehydratase, biosynthetic" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NC_000913.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_418220" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_418220.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NZ_SSZK01000025.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="P04968" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P04968" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Q2M881" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Threonine deaminase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Threonine deaminase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Threonine dehydratase" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="WP_000785596.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="b3772" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b3772" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b3772" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="b3772" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="eco:b3772" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ilvA" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="ilvA" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="l-threonine dehydratase, biosynthetic" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="111">
+        <names>
+          <shortLabel>putP</shortLabel>
+          <fullName>Proline:sodium symporter; Catalyzes the sodium-dependent uptake of extracellular L- proline. This protein is also capable of using lithium as the transport cation. Also catalyzes the uptake of propionate.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="b1015" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_GENEID" dbAc="MI:9999" id="945602" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="945602" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74100" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="AAC74100.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ABE-0003433" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="ECK1006" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="EG10802" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="JW1001" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="JW1001" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NC_000913.3" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NCBI" dbAc="MI:9999" id="NP_415535" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NP_415535.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="NZ_SSZK01000002.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="P07117" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P07117" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="PUTP_ECOLI" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Proline permease" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Proline:Na(+) symporter" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="Proline:sodium symporter" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Propionate transporter" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_NAME" dbAc="MI:9999" id="PutP" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_PRODUCT" dbAc="MI:9999" id="Sodium/proline symporter" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Sodium/proline symporter" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="WP_001018479.1" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID_SHORT" dbAc="MI:9999" id="b1015" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1015" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="b1015" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="b1015" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="KEGG_KEGGID" dbAc="MI:9999" id="eco:b1015" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="proline:sodium symporter" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="putC" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="refseq" dbAc="MI:0481" id="putP" refType="identity" refTypeAc="MI:0356"/>
+          <secondaryRef db="uniprotkb" dbAc="MI:0486" id="putP" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+    </interactorList>    <interactionList>      <interaction id="112">
+        <experimentList>
+          <experimentRef>7</experimentRef>
+        </experimentList>
+        <participantList>
+          <participant id="113">
+            <interactorRef>111</interactorRef>
+          </participant>
+          <participant id="114">
+            <interactorRef>101</interactorRef>
+          </participant>
+        </participantList>
+        <confidenceList>
+          <confidence>
+            <unit>
+              <names>
+                <shortLabel>likelihood</shortLabel>
+                <fullName>estimated likelihood of predicted functional association being true positive</fullName>
+              </names>
+            </unit>
+            <value>0.911</value>
+          </confidence>
+        </confidenceList>
+      </interaction>
+      <interaction id="115">
+        <experimentList>
+          <experimentRef>0</experimentRef>
+        </experimentList>
+        <participantList>
+          <participant id="113">
+            <interactorRef>111</interactorRef>
+          </participant>
+          <participant id="114">
+            <interactorRef>101</interactorRef>
+          </participant>
+        </participantList>
+        <confidenceList>
+          <confidence>
+            <unit>
+              <names>
+                <shortLabel>likelihood</shortLabel>
+                <fullName>estimated likelihood of predicted functional association being true positive</fullName>
+              </names>
+            </unit>
+            <value>0.911</value>
+          </confidence>
+        </confidenceList>
+      </interaction>
+      <interaction id="116">
+        <experimentList>
+          <experimentRef>7</experimentRef>
+        </experimentList>
+        <participantList>
+          <participant id="117">
+            <interactorRef>111</interactorRef>
+          </participant>
+          <participant id="118">
+            <interactorRef>102</interactorRef>
+          </participant>
+        </participantList>
+        <confidenceList>
+          <confidence>
+            <unit>
+              <names>
+                <shortLabel>likelihood</shortLabel>
+                <fullName>estimated likelihood of predicted functional association being true positive</fullName>
+              </names>
+            </unit>
+            <value>0.911</value>
+          </confidence>
+        </confidenceList>
+      </interaction>
+      <interaction id="119">
+        <experimentList>
+          <experimentRef>0</experimentRef>
+        </experimentList>
+        <participantList>
+          <participant id="117">
+            <interactorRef>111</interactorRef>
+          </participant>
+          <participant id="118">
+            <interactorRef>102</interactorRef>
+          </participant>
+        </participantList>
+        <confidenceList>
+          <confidence>
+            <unit>
+              <names>
+                <shortLabel>likelihood</shortLabel>
+                <fullName>estimated likelihood of predicted functional association being true positive</fullName>
+              </names>
+            </unit>
+            <value>0.911</value>
+          </confidence>
+        </confidenceList>
+      </interaction>
+      <interaction id="120">
+        <experimentList>
+          <experimentRef>7</experimentRef>
+        </experimentList>
+        <participantList>
+          <participant id="121">
+            <interactorRef>111</interactorRef>
+          </participant>
+          <participant id="122">
+            <interactorRef>106</interactorRef>
+          </participant>
+        </participantList>
+        <confidenceList>
+          <confidence>
+            <unit>
+              <names>
+                <shortLabel>likelihood</shortLabel>
+                <fullName>estimated likelihood of predicted functional association being true positive</fullName>
+              </names>
+            </unit>
+            <value>0.906</value>
+          </confidence>
+        </confidenceList>
+      </interaction>
+      <interaction id="123">
+        <experimentList>
+          <experimentRef>0</experimentRef>
+        </experimentList>
+        <participantList>
+          <participant id="121">
+            <interactorRef>111</interactorRef>
+          </participant>
+          <participant id="122">
+            <interactorRef>106</interactorRef>
+          </participant>
+        </participantList>
+        <confidenceList>
+          <confidence>
+            <unit>
+              <names>
+                <shortLabel>likelihood</shortLabel>
+                <fullName>estimated likelihood of predicted functional association being true positive</fullName>
+              </names>
+            </unit>
+            <value>0.906</value>
+          </confidence>
+        </confidenceList>
+      </interaction>
+    </interactionList>  </entry>
+</entrySet>
+
+
