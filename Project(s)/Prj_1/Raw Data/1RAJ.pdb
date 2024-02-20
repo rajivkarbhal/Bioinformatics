@@ -1,7 +1,6 @@
 # Change done
 HEADER    TRANSFERASE                             31-OCT-03   1RAJ              
-TITLE     POLIOVIRUS POLYMERASE WITH A 68 RESIDUE N-TERMINAL TRUNCATION         
-COMPND    MOL_ID: 1;                                                            
+TITLE     POLIOVIRUS POLYMERASE WITH A 68 RESIDUE N-TERMINAL TRUNCATION                                                                   
 COMPND   2 MOLECULE: GENOME POLYPROTEIN;                                        
 COMPND   3 CHAIN: A;                                                            
 COMPND   4 FRAGMENT: RNA-DIRECTED RNA POLYMERASE;                               
