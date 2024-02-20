@@ -4,8 +4,7 @@ TITLE     POLIOVIRUS POLYMERASE WITH A 68 RESIDUE N-TERMINAL TRUNCATION
 COMPND   2 MOLECULE: GENOME POLYPROTEIN;                                        
 COMPND   3 CHAIN: A;                                                            
 COMPND   4 FRAGMENT: RNA-DIRECTED RNA POLYMERASE;                               
-COMPND   5 SYNONYM: P3D;                                                        
-COMPND   6 EC: 2.7.7.48;                                                        
+COMPND   5 SYNONYM: P3D;                                                                                                           
 COMPND   7 ENGINEERED: YES;                                                     
 COMPND   8 MUTATION: YES                                                        
 SOURCE    MOL_ID: 1;                                                            
