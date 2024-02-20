@@ -10,7 +10,7 @@ DE            Short=svPLA2;
 DE            EC=3.1.1.4 {ECO:0000269|PubMed:19622365};
 DE   AltName: Full=Phosphatidylcholine 2-acylhydrolase;
 DE   AltName: Full=Thrombin inhibitor from Naja haje {ECO:0000303|PubMed:19622365};
-
+Addition
 OS   Naja haje haje (Egyptian cobra).
 OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
 OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
