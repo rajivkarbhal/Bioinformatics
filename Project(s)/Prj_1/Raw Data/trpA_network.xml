@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <entrySet level="2" version="5" xmlns="net:sf:psidev:mi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="net:sf:psidev:mi http://psidev.sourceforge.net/mi/rel25/src/MIF25.xsd">
   <entry>
-    <experimentList>
-      <experimentDescription id="7">
+
         <names>
           <shortLabel>automated_textmining</shortLabel>
           <fullName>Unsupervised, automated mining of biomedical texts: analysis of protein-protein co-mentioning</fullName>
@@ -35,9 +34,6 @@
           <xref>
             <primaryRef db="PSI-MI" id="MI:0686"/>
           </xref>
-        </participantIdentificationMethod>
-      </experimentDescription>
-      <experimentDescription id="6">
         <names>
           <shortLabel>knowledge datamining</shortLabel>
           <fullName>Import of protein-protein association information from curated knowledge databases</fullName>
