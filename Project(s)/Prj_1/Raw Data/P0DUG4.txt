@@ -1,5 +1,5 @@
 # This is UniProt protein sequence file
-# Try changes
+# Addition
 ID   PA2TI_NAJHH             Reviewed;          48 AA.
 AC   P0DUG4;
 DT   07-APR-2021, integrated into UniProtKB/Swiss-Prot.
@@ -10,7 +10,7 @@ DE            Short=svPLA2;
 DE            EC=3.1.1.4 {ECO:0000269|PubMed:19622365};
 DE   AltName: Full=Phosphatidylcholine 2-acylhydrolase;
 DE   AltName: Full=Thrombin inhibitor from Naja haje {ECO:0000303|PubMed:19622365};
-DE   Flags: Fragments;
+
 OS   Naja haje haje (Egyptian cobra).
 OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
 OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
