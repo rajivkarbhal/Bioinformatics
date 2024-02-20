@@ -20,8 +20,7 @@ SOURCE   8 EXPRESSION_SYSTEM_STRAIN: BL21 (DE3) PLYSS;
 SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PKKT7E                                    
 KEYWDS    NUCLEOTIDYLTRANSFERASE, POLIOVIRUS, POLIO, 3D, RNA-DEPENDENT,         
-KEYWDS   2 POLYMERASE, TRANSFERASE                                              
-EXPDTA    X-RAY DIFFRACTION                                                     
+KEYWDS   2 POLYMERASE, TRANSFERASE                                                                                                 
 AUTHOR    A.A.THOMPSON,O.B.PEERSEN                                              
 REVDAT   7   23-AUG-23 1RAJ    1       REMARK                                   
 REVDAT   6   27-OCT-21 1RAJ    1       SEQADV                                   
