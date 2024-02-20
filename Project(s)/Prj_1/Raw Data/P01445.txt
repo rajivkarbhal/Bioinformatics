@@ -1,0 +1,120 @@
+ID   3SA7A_NAJKA             Reviewed;          60 AA.
+AC   P01445;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUL-1986, sequence version 1.
+DT   03-MAY-2023, entry version 99.
+DE   RecName: Full=Cytotoxin 2 {ECO:0000303|PubMed:18381281};
+DE            Short=CX2 {ECO:0000303|PubMed:18381281};
+DE   AltName: Full=Toxin CM-7A {ECO:0000303|PubMed:7210030};
+OS   Naja kaouthia (Monocled cobra) (Naja siamensis).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Elapidae; Elapinae; Naja.
+OX   NCBI_TaxID=8649;
+RN   [1]
+RP   PROTEIN SEQUENCE, SUBCELLULAR LOCATION, AND TOXIC DOSE.
+RC   TISSUE=Venom;
+RX   PubMed=7210030; DOI=10.1016/0041-0101(80)90053-7;
+RA   Joubert F.J., Taljaard N.;
+RT   "The complete primary structures of three cytotoxins (CM-6, CM-7 and CM-7A)
+RT   from Naja naja kaouthia (Siamese cobra) snake venom.";
+RL   Toxicon 18:455-467(1980).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 6-17; 23-36 AND 45-50, IDENTIFICATION BY MASS
+RP   SPECTROMETRY, FUNCTION, AND SUBUNIT.
+RC   TISSUE=Venom;
+RX   PubMed=18381281; DOI=10.1074/jbc.m802085200;
+RA   Osipov A.V., Kasheverov I.E., Makarova Y.V., Starkov V.G., Vorontsova O.V.,
+RA   Ziganshin R.K., Andreeva T.V., Serebryakova M.V., Benoit A., Hogg R.C.,
+RA   Bertrand D., Tsetlin V.I., Utkin Y.N.;
+RT   "Naturally occurring disulfide-bound dimers of three-fingered toxins: a
+RT   paradigm for biological activity diversification.";
+RL   J. Biol. Chem. 283:14571-14580(2008).
+RN   [3] {ECO:0007744|PDB:7O2K}
+RP   STRUCTURE BY NMR, MASS SPECTROMETRY, SUBCELLULAR LOCATION, TISSUE
+RP   SPECIFICITY, AND DISULFIDE BONDS.
+RX   PubMed=33915327; DOI=10.1016/j.bbrc.2021.04.069;
+RA   Dubinnyi M.A., Dubovskii P.V., Starkov V.G., Utkin Y.N.;
+RT   "The omega-loop of cobra cytotoxins tolerates multiple amino acid
+RT   substitutions.";
+RL   Biochem. Biophys. Res. Commun. 558:141-146(2021).
+CC   -!- FUNCTION: Monomer: shows cytolytic activity.
+CC       {ECO:0000269|PubMed:18381281}.
+CC   -!- FUNCTION: Heterodimer: has no cytolytic activity, but retains most of
+CC       the alpha-cobratoxin capacity to compete with alpha-bungarotoxin for
+CC       binding to Torpedo and alpha-7/CHRNA7 nicotinic acetylcholine receptors
+CC       (nAChRs) as well as to Lymnea stagnalis acetylcholine-binding protein.
+CC       {ECO:0000269|PubMed:18381281}.
+CC   -!- SUBUNIT: Monomer, or heterodimer with alpha-cobratoxin (AC P01391);
+CC       disulfide-linked. {ECO:0000269|PubMed:18381281}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:33915327,
+CC       ECO:0000269|PubMed:7210030}. Target cell membrane
+CC       {ECO:0000250|UniProtKB:P60301}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC       {ECO:0000305|PubMed:33915327}.
+CC   -!- MASS SPECTROMETRY: Mass=6737; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:33915327};
+CC   -!- TOXIC DOSE: LD(50) is 1.2 mg/kg by intravenous injection.
+CC       {ECO:0000269|PubMed:7210030}.
+CC   -!- MISCELLANEOUS: Is classified as a S-type cytotoxin, since a serine
+CC       residue stands at position 28 (Ser-29 in standard classification).
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the snake three-finger toxin family. Short-chain
+CC       subfamily. Type IA cytotoxin sub-subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; A01712; H3NJ2K.
+DR   PDB; 7O2K; NMR; -; A=1-60.
+DR   PDBsum; 7O2K; -.
+DR   AlphaFoldDB; P01445; -.
+DR   BMRB; P01445; -.
+DR   SMR; P01445; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0044218; C:other organism cell membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0031640; P:killing of cells of another organism; IEA:UniProtKB-KW.
+DR   CDD; cd00206; snake_toxin; 1.
+DR   Gene3D; 2.10.60.10; CD59; 1.
+DR   InterPro; IPR003572; Cytotoxin_Cobra.
+DR   InterPro; IPR003571; Snake_3FTx.
+DR   InterPro; IPR045860; Snake_toxin-like_sf.
+DR   InterPro; IPR018354; Snake_toxin_con_site.
+DR   PRINTS; PR00282; CYTOTOXIN.
+DR   SUPFAM; SSF57302; Snake toxin-like; 1.
+DR   PROSITE; PS00272; SNAKE_TOXIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cardiotoxin; Cytolysis; Direct protein sequencing;
+KW   Disulfide bond; Membrane; Secreted; Target cell membrane; Target membrane;
+KW   Toxin.
+FT   CHAIN           1..60
+FT                   /note="Cytotoxin 2"
+FT                   /evidence="ECO:0000269|PubMed:7210030"
+FT                   /id="PRO_0000093499"
+FT   DISULFID        3..21
+FT                   /evidence="ECO:0000269|PubMed:33915327,
+FT                   ECO:0007744|PDB:7O2K"
+FT   DISULFID        14..38
+FT                   /evidence="ECO:0000269|PubMed:33915327,
+FT                   ECO:0007744|PDB:7O2K"
+FT   DISULFID        42..53
+FT                   /evidence="ECO:0000269|PubMed:33915327,
+FT                   ECO:0007744|PDB:7O2K"
+FT   DISULFID        54..59
+FT                   /evidence="ECO:0000269|PubMed:33915327,
+FT                   ECO:0007744|PDB:7O2K"
+FT   STRAND          2..4
+FT                   /evidence="ECO:0007829|PDB:7O2K"
+FT   STRAND          11..13
+FT                   /evidence="ECO:0007829|PDB:7O2K"
+FT   STRAND          20..26
+FT                   /evidence="ECO:0007829|PDB:7O2K"
+FT   STRAND          29..41
+FT                   /evidence="ECO:0007829|PDB:7O2K"
+FT   STRAND          47..56
+FT                   /evidence="ECO:0007829|PDB:7O2K"
+SQ   SEQUENCE   60 AA;  6745 MW;  84125ADD50BD45E2 CRC64;
+     LKCNKLIPLA YKTCPAGKNL CYKMFMVSNK TVPVKRGCID VCPKNSLLVK YVCCNTDRCN
+//
