@@ -11,11 +11,6 @@
              type="rectangle" x="483" y="407" width="46" height="17"/>
 
     </entry>
-    <entry id="44" name="hsa:218 hsa:221 hsa:222" type="gene" reaction="rn:R00711"
-        link="https://www.kegg.jp/dbget-bin/www_bget?hsa:218+hsa:221+hsa:222">
-        <graphics name="ALDH3A1, ALDH3, ALDHIII..." fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="259" y="969" width="46" height="17"/>
-    </entry>
     <entry id="45" name="cpd:C00033" type="compound"
         link="https://www.kegg.jp/dbget-bin/www_bget?C00033">
         <graphics name="C00033" fgcolor="#000000" bgcolor="#FFFFFF"
