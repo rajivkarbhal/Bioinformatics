@@ -11,11 +11,6 @@
              type="rectangle" x="483" y="407" width="46" height="17"/>
 
     </entry>
-    <entry id="43" name="ko:K01905 ko:K22224 ko:K24012" type="ortholog" reaction="rn:R00229"
-        link="https://www.kegg.jp/dbget-bin/www_bget?K01905+K22224+K24012">
-        <graphics name="K01905..." fgcolor="#000000" bgcolor="#FFFFFF"
-             type="rectangle" x="146" y="916" width="46" height="17"/>
-    </entry>
     <entry id="44" name="hsa:218 hsa:221 hsa:222" type="gene" reaction="rn:R00711"
         link="https://www.kegg.jp/dbget-bin/www_bget?hsa:218+hsa:221+hsa:222">
         <graphics name="ALDH3A1, ALDH3, ALDHIII..." fgcolor="#000000" bgcolor="#BFFFBF"
