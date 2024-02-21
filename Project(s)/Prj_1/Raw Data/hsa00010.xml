@@ -9,11 +9,7 @@
         link="https://www.kegg.jp/dbget-bin/www_bget?hsa:226+hsa:229+hsa:230">
         <graphics name="ALDOA, ALDA, GSD12, HEL-S-87p..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="483" y="407" width="46" height="17"/>
-    </entry>
-    <entry id="42" name="hsa:217 hsa:219 hsa:223 hsa:224 hsa:501" type="gene" reaction="rn:R00710"
-        link="https://www.kegg.jp/dbget-bin/www_bget?hsa:217+hsa:219+hsa:223+hsa:224+hsa:501">
-        <graphics name="ALDH2, ALDH-E2, ALDHI, ALDM..." fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="284" y="948" width="46" height="17"/>
+
     </entry>
     <entry id="43" name="ko:K01905 ko:K22224 ko:K24012" type="ortholog" reaction="rn:R00229"
         link="https://www.kegg.jp/dbget-bin/www_bget?K01905+K22224+K24012">
