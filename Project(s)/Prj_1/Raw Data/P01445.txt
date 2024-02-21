@@ -1,3 +1,4 @@
+# Addition of line
 ID   3SA7A_NAJKA             Reviewed;          60 AA.
 AC   P01445;
 DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
@@ -10,7 +11,6 @@ OS   Naja kaouthia (Monocled cobra) (Naja siamensis).
 OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
 OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
 OC   Serpentes; Colubroidea; Elapidae; Elapinae; Naja.
-OX   NCBI_TaxID=8649;
 RN   [1]
 RP   PROTEIN SEQUENCE, SUBCELLULAR LOCATION, AND TOXIC DOSE.
 RC   TISSUE=Venom;
