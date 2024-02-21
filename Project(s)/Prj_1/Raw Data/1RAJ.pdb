@@ -6,8 +6,7 @@ COMPND   3 CHAIN: A;
 COMPND   4 FRAGMENT: RNA-DIRECTED RNA POLYMERASE;                               
 COMPND   5 SYNONYM: P3D;                                                                                                           
 COMPND   7 ENGINEERED: YES;                                                     
-COMPND   8 MUTATION: YES                                                        
-SOURCE    MOL_ID: 1;                                                            
+COMPND   8 MUTATION: YES                                                                                                                 
 SOURCE   2 ORGANISM_SCIENTIFIC: HUMAN POLIOVIRUS 1;                             
 SOURCE   3 ORGANISM_TAXID: 12081;                                               
 SOURCE   4 STRAIN: MAHONEY;                                                     
