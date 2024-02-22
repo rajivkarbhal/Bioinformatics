@@ -1,0 +1,382 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="550" height="428" id="menthaGraphStagegraphArea" version="1.1"><g transform="translate(27.5,23) scale(0.9)" clip-path="url(#clipRect)"><defs><style type="text/css"><![CDATA[
+
+path.link {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #666;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-undefined {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #666;
+	stroke-width: 2px;
+	stroke-dasharray: 10;
+        pointer-events:stroke;
+}
+/* Unknown */ 
+path.link-unknown {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0;
+	stroke: #777777;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-bind-unknown {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0;
+	stroke: #777777;
+	stroke-width: 2px;
+	stroke-dasharray:5 5;
+        pointer-events:stroke;
+}
+path.link-undefined-unknown {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #777777;
+	stroke-width: 2px;
+	stroke-dasharray: 15 15;
+        pointer-events:stroke;
+}
+path.link-transcription-unknown {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.1;
+	stroke: #77777766;
+	stroke-width: 2px;
+	stroke-dasharray:5 5;
+        pointer-events:stroke;
+}
+/* Activations */ 
+path.link-activation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0;
+	stroke: #0066CC;
+	stroke-width: 2px;
+	pointer-events:stroke;
+}
+path.link-bind-activation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0;
+	stroke: #0066CC;
+	stroke-width: 2px;
+	stroke-dasharray:5 5;
+	pointer-events:stroke;
+}
+path.link-undefined-activation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #0066CC;
+	stroke-width: 2px;
+	stroke-dasharray: 15 15;
+        pointer-events:stroke;
+}
+path.link-transcription-activation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0;
+	stroke: #0066CC;
+	stroke-width: 2px;
+	stroke-dasharray:5 5;
+	stroke-opacity: 0.3;
+        pointer-events:stroke;
+}
+/* Inhibitions */ 
+path.link-inhibition {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #FF3333;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-bind-inhibition {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #FF3333;
+	stroke-width: 2px;
+	stroke-dasharray:5 5;
+        pointer-events:stroke;
+}
+path.link-undefined-inhibition {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #FF3333;
+	stroke-width: 2px;
+	stroke-dasharray: 15 15;
+        pointer-events:stroke;
+}
+path.link-transcription-inhibition {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #FF3333;
+	stroke-width: 2px;
+	stroke-dasharray:5 5;
+	stroke-opacity: 0.3;
+        pointer-events:stroke;
+}
+/* Others */ 
+path.link-direct {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #000000;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-indirect {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #000000;
+	stroke-width: 2px;
+	stroke-dasharray:8 8;
+        pointer-events:stroke;
+}
+path.link-binding {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #000000;
+	stroke-width: 2px;
+	stroke-dasharray:3 3;
+        pointer-events:stroke;
+}
+path.link-none {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #666;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-ppi {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #0aa34a;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-complex-formation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #0aa34a;
+	stroke-width: 2px;
+        pointer-events:stroke;
+}
+path.link-chemical-activation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #0066CC;
+	stroke-width: 2px;
+	/*stroke-dasharray: 0,2 1;*/
+        pointer-events:stroke;
+}
+path.link-chemical-inhibition {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #FF3333;
+	stroke-width: 2px;
+	/*stroke-dasharray: 0,2 1;*/
+        pointer-events:stroke;
+}
+path.link-smallmolecule-activation {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #0066CC;
+	stroke-width: 2px;
+	/*stroke-dasharray: 0,2 1;*/
+        pointer-events:stroke;
+}
+path.link-smallmolecule-inhibition {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #FF3333;
+	stroke-width: 2px;
+	/*stroke-dasharray: 0,2 1;*/
+        pointer-events:stroke;
+}
+/* Nodes */ 
+.nonhuman {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #FF9933;
+	z-index:10000;
+}
+
+.chemical {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #e1b68b;
+	z-index:10000;
+}
+
+.smallmolecule {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #ffc966;
+	z-index:10000;
+}
+
+.protein {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #99cc66;
+	z-index:10000;
+}
+.complex {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #708ccd;
+	z-index:10000;
+}
+.proteinfamily {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #ffffff;
+	z-index:10000;
+}
+.phenotype {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #99FF99;
+	z-index:10000;
+}
+.stimulus {
+	stroke: #000;
+	stroke-width: 1px;
+	fill: #FF9999;
+	z-index:10000;
+}
+text {
+	font: 10px sans-serif;
+	pointer-events: none;
+}
+text.plaintext {
+	fill: #000;
+	
+	font-size: 10px;
+}
+.scroll-pane
+{
+	overflow: auto;
+	color: #111;
+	width: 100%;
+	height: 85%;
+}
+.hull1 {
+	fill: grey;
+	stroke: grey;
+	stroke-width: 15px;
+	stroke-linejoin: round;
+	opacity:0.3;
+}
+.hull2 {
+	fill: red;
+	stroke: red;
+	stroke-width: 15px;
+	stroke-linejoin: round;
+	opacity:0.5;
+}
+.controlbar {
+	padding:0px;
+}
+.controlbar td {
+	padding: 0px;
+	border: 0px;
+}
+.rna {
+		stroke: black;
+		stroke-width: 1px;
+		fill: yellow;
+		}
+        .antibody{stroke:black;stroke-width:1px;fill:red;}
+        
+        path.link-test {
+		z-index:10000;
+		fill: #fec967;
+		fill-opacity: 0.01;
+		stroke: #fec967;;
+		stroke-width: 5px;
+		stroke-dasharray: 1;
+}
+        path.link-test2 {
+        z-index:10000;
+		fill: #ffffff;
+		fill-opacity: 0.01;
+		stroke: purple;
+		stroke-width: 5px;
+		stroke-dasharray: 1;
+}
+        
+        path.link-precursor{
+        z-index:10000;
+		fill: #fec967;
+		fill-opacity: 0.01;
+		stroke: #fec967;;
+		stroke-width: 2px;}
+        
+        path.link-toPathway {
+		z-index:10000;
+		fill: #ffffff;
+		fill-opacity: 0.01;
+		stroke: gray;
+		stroke-width: 2px;
+		pointer-events:stroke;
+	}.rna {
+		stroke: black;
+		stroke-width: 1px;
+		fill: yellow;
+		}
+        .antibody{stroke:black;stroke-width:1px;fill:red;}
+        
+        path.link-test {
+		z-index:10000;
+		fill: #fec967;
+		fill-opacity: 0.01;
+		stroke: #fec967;;
+		stroke-width: 5px;
+		stroke-dasharray: 1;
+}
+        path.link-test2 {
+        z-index:10000;
+		fill: #ffffff;
+		fill-opacity: 0.01;
+		stroke: purple;
+		stroke-width: 5px;
+		stroke-dasharray: 1;
+}
+        
+        path.link-precursor{
+        z-index:10000;
+		fill: #fec967;
+		fill-opacity: 0.01;
+		stroke: #fec967;;
+		stroke-width: 2px;}
+        
+        path.link-toPathway {
+		z-index:10000;
+		fill: #ffffff;
+		fill-opacity: 0.01;
+		stroke: gray;
+		stroke-width: 2px;
+		pointer-events:stroke;
+	}]]></style></defs><defs><linearGradient id="cytosol" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"></stop><stop offset="18%" style="stop-color:rgb(173,216,230);stop-opacity:1"></stop></linearGradient></defs><g transform="translate(0,0) scale(1)"><circle r="1380" stroke="black" stroke-width="2" fill="#FFFF99" cx="275" cy="1431"></circle></g><g transform="translate(0,0) scale(1)"><circle r="1380" stroke="black" stroke-width="2" fill="url(#cytosol)" cx="275" cy="1456.6666666666667"></circle></g><g transform="translate(0,0) scale(1)"><ellipse rx="552" ry="230" stroke="black" stroke-width="2" fill="#CCCCFF" cx="275" cy="575"></ellipse></g><g transform="translate(0,0) scale(1)"><rect x="-25000" y="400" width="50000" height="50000" style="fill:white;stroke:black;stroke-width:2;" onmousedown="selectElement(evt)"></rect></g><defs><marker id="activation" style="fill:#0066CC" viewBox="0 -5 10 10" refX="16" refY="-0.5" markerWidth="6.75" markerHeight="6.75" orient="auto"><path d="M0,-5L10,0L0,5 Z"></path></marker></defs><defs><marker id="activationbase" style="fill:#0066CC" viewBox="0 -5 10 10" refX="0" refY="-0.5" markerWidth="6.75" markerHeight="6.75" orient="auto"><path d="M0,-5L10,0L0,5 Z"></path></marker></defs><defs><marker id="inhibition" style="fill:#FF3333" viewBox="0 0 30 30" refX="15" refY="10" markerWidth="13.5" markerHeight="13.5" orient="auto"><path d="M0 0 L0 20 L5 20 L5 0 Z"></path></marker></defs><defs><marker id="inhibitionbase" style="fill:#FF3333" viewBox="0 0 30 30" refX="0" refY="10" markerWidth="13.5" markerHeight="13.5" orient="auto"><path d="M0 0 L0 20 L5 20 L5 0 Z"></path></marker></defs><defs><marker id="unknown" style="fill:#777777" viewBox="-10 -10 30 30" refX="16" refY="0" markerWidth="13.5" markerHeight="13.5" orient="auto"><circle r="6"></circle></marker></defs><defs><marker id="formation" style="fill:#0aa34a" viewBox="0 0 20 20" refX="16" refY="4" markerWidth="12" markerHeight="12" orient="auto"><rect width="8" height="8"></rect></marker></defs><defs><marker id="undefined"></marker></defs><defs><marker id="formation"></marker></defs><defs><marker id="unknown"></marker></defs><defs><marker id="complex-formation"></marker></defs><defs><marker id="precursor" style="fill:#fec967" viewBox="0 -5 10 10" refX="16" refY="-0.5" markerWidth="6.75" markerHeight="6.75" orient="auto"><path d="M0,-5L10,0L0,5 Z"></path></marker></defs><clipPath id="clipRect"><rect x="-50" y="-50" width="650" height="560"></rect></clipPath><g transform="translate(0,0) scale(1)"><path class="link-activation" id="Q13315Q7LG56edge" marker-end="url('#activation')" d="M92.52635154980908,260.20010655483634A1798.5849564271932,1798.5849564271932 0 0,1 266.21488629346914,213.49495316184894"></path><path class="link-activation" id="Q7LG56P23921edge" marker-end="url('#activation')" d="M266.21488629346914,213.49495316184894A1786.40694853075,1786.40694853075 0 0,1 411.0926657237717,318.0077604389194"></path><path class="link-undefined-activation" id="SIGNOR-ST7Q7LG56edge" marker-end="url('#activation')" d="M270,20A1935.3197147985,1935.3197147985 0 0,1 266.21488629346914,213.49495316184894"></path></g><g transform="translate(0,0) scale(1)"></g><g transform="translate(0,0) scale(1)"><circle r="9" id="Q13315" class="protein" transform="translate(92.52635154980908,260.20010655483634)"></circle><circle r="9" id="Q7LG56" class="protein" style="fill:#538521;" transform="translate(266.21488629346914,213.49495316184894)"></circle><circle r="9" id="P23921" class="protein" transform="translate(411.0926657237717,318.0077604389194)"></circle></g><g transform="translate(0,0) scale(1)"></g><g transform="translate(0,0) scale(1)"></g><g transform="translate(0,0) scale(1)"></g><g transform="translate(0,0) scale(1)"><path class="stimulus" d="M-30,-15L50,-15L50,5L-30,5 Z" transform="translate(270,20)"></path></g><g transform="translate(0,0) scale(1)"></g><g transform="translate(0,0) scale(1)"><text><textPath xlink:href="#Q13315Q7LG56edge" startOffset="50%" id="Q13315-Q7LG56-score">0.491</textPath></text></g><g transform="translate(0,0) scale(1)"><text><textPath xlink:href="#Q7LG56P23921edge" startOffset="50%" id="Q7LG56-P23921-score">0.932</textPath></text></g><g transform="translate(0,0) scale(1)"><text><textPath xlink:href="#SIGNOR-ST7Q7LG56edge" startOffset="50%" id="SIGNOR-ST7-Q7LG56-score">0.7</textPath></text></g><g transform="translate(0,0) scale(1)"><text x="-15" y="2em" class="plaintext" category="protein" id="nodelabelQ13315" transform="translate(92.52635154980908,260.20010655483634)">ATM</text><text x="-15" y="2em" class="plaintext" category="protein" id="nodelabelQ7LG56" transform="translate(266.21488629346914,213.49495316184894)">RRM2B</text><text x="-15" y="2em" class="plaintext" category="protein" id="nodelabelP23921" style="font-size: 11px; stroke-width: 2px;" transform="translate(411.0926657237717,318.0077604389194)">RRM1</text><text x="-18" y="" class="plaintext" category="stimulus" id="nodelabelSIGNOR-ST7" transform="translate(270,20)" style="font-size: 11px; stroke-width: 2px;">UV stress</text></g></g><g class="legend" style="display:none" transform="matrix(1 0 0 1 0 0)" onmousedown="selectElement(evt)"><rect x="5" y="315" rx="5" ry="5" width="255" height="110" style="fill:white;stroke:black;stroke-width:1;fill-opacity:1;" category="legend" transform="matrix(1 0 0 1 0 0)" onmousedown="selectElement(evt)"></rect><circle cx="15" cy="325" r="4.5" class="protein" category="legend"></circle><text x="27" y="328" style="font-size:0.6em" category="legend">Protein</text><circle cx="15" cy="340" r="4.5" class="proteinfamily" category="legend"></circle><text x="27" y="343" style="font-size:0.6em" category="legend">Protein family</text><g transform="translate(15,355)"><path d="M -3.5380432619161e-7,-10.422110257019 A 6.470588673012,6.4705126773471 0 0 0 -6.4705890268163,-3.9515454402782 6.470588673012,6.4705126773471 0 0 0 -6.0156256696514,-1.5674331419299 6.470588673012,6.4705126773471 0 0 0 -10.784314764824,4.6758743153767 6.470588673012,6.4705126773471 0 0 0 -4.3137261358123,11.146439132118 6.470588673012,6.4705126773471 0 0 0 -0.00842569486298,9.4951383190327 6.470588673012,6.4705126773471 0 0 0 4.3137252082032,11.146439132118 6.470588673012,6.4705126773471 0 0 0 10.784314981215,4.6758743153767 6.470588673012,6.4705126773471 0 0 0 6.0071996209837,-1.5586332441786 6.470588673012,6.4705126773471 0 0 0 6.4705880992072,-3.9515454402788 6.470588673012,6.4705126773471 0 0 0 -3.5380434841829e-7,-10.42211025702 Z" transform="scale(0.6,0.6)" class="complex" category="legend"></path></g><text x="27" y="358" style="font-size:0.6em" category="legend">Complex</text><rect x="11" y="366" width="9" height="9" class="smallmolecule" category="legend"></rect><text x="27" y="373" style="font-size:0.6em" category="legend">Chemical/Molecule</text><rect x="9" y="381" width="14" height="9" class="phenotype" category="legend"></rect><text x="27" y="388" style="font-size:0.6em" category="legend">Phenotype/Stimulus</text><rect x="9" y="396" width="14" height="8" stroke="black" stroke-width="1" fill="#8F8FFF" category="legend"></rect><rect x="9" y="397" width="14" height="8" stroke="#8F8FFF" stroke-width="1.5" fill="#8F8FFF" category="legend"></rect><text x="27" y="403" style="font-size:0.6em" category="legend">Nucleus</text><rect x="9" y="411" width="14" height="8" stroke="black" stroke-width="1" fill="#FFFF99" category="legend"></rect><rect x="9" y="412" width="14" height="6" stroke="#FFFF99" stroke-width="1.5" fill="#FFFF99" category="legend"></rect><text x="27" y="418" style="font-size:0.6em" category="legend">Membrane</text><path d="M130 325 L155 325" class="link-activation" category="legend"></path><text x="160" y="328" style="font-size:0.6em" category="legend">Up-regulates</text><path d="M130 340 L155 340" class="link-inhibition" category="legend"></path><text x="160" y="343" style="font-size:0.6em" category="legend">Down-regulates</text><path d="M130 355 L155 355" class="link-complex-formation" category="legend"></path><text x="160" y="358" style="font-size:0.6em" category="legend">Physical interaction</text><path d="M130 370 L155 370" class="link-unknown" category="legend"></path><text x="160" y="373" style="font-size:0.6em" category="legend">Unknown</text><path d="M130 385 L155 385" class="link-direct" category="legend"></path><text x="160" y="388" style="font-size:0.6em" category="legend">Direct</text><path d="M130 400 L155 400" class="link-indirect" category="legend"></path><text x="160" y="403" style="font-size:0.6em" category="legend">Indirect</text><path d="M130 415 L155 415" class="link-binding" category="legend"></path><text x="160" y="418" style="font-size:0.6em" category="legend">Binding</text></g></svg>
