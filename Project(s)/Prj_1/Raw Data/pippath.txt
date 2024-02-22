@@ -1,1 +1,2 @@
+# It is Pip Path
 C:\Users\karbhara\AppData\Roaming\Python\Python311\Scripts
