@@ -47,36 +47,6 @@ else:
 gnnumbvalue = locals().get('gid') #To avoid printing 'NameError' error
 
 
-if gnnumbvalue is not None:
-    class ncbi:
-        def __init__(self,url):
-            self.url = url
-
-        def ncbidata(self):
-            try:
-                NCBI_url = self.url
-                NCBI_response = requests.get(NCBI_url)
-                NCBI_cot = NCBI_response.text
-                NCBI_blocks = NCBI_response.text.split("},")
-                gnsnpn=""
-                for NCBI_item in enumerate(NCBI_blocks):                 
-                    if (pnm2 := re.match(r".+locus \"(.\S+)\"\,.+", str(NCBI_item), re.IGNORECASE)):
-                        Gnnm = pnm2.group(1)
-                        #return Gnnm
-                        gnsnpn = Gnnm
-                    if (pnm2 := re.match(r".+syn \{(.+)\}\\n", str(NCBI_item), re.IGNORECASE)):
-                        syns = pnm2.group(1)
-                        syns = syns.replace("\\n      \"", "" )
-                        syns = syns.replace("\",", ", " )
-                        syns = syns.replace("\"\\n", "" )
-                        gnsnpn = gnsnpn + "_" + syns
-                        #return syns
-                    if (pnm2 := re.match(r".+anchor \"UniProtKB\/Swiss-Prot\:(\S+)\"\,", str(NCBI_item), re.IGNORECASE)):
-                        unspid = pnm2.group(1)
-                        gnsnpn = gnsnpn + "_" + unspid
-                        return gnsnpn                         
-            except requests.exceptions.RequestException as e:
-                print(f"Error: {e}")
         
     NCBI_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=gene&id=%s"%gid
     gnnm = ncbi(NCBI_url)
