@@ -3,7 +3,6 @@ ID   3SA7A_NAJKA             Reviewed;          60 AA.
 AC   P01445;
 DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
 DT   21-JUL-1986, sequence version 1.
-DT   03-MAY-2023, entry version 99.
 DE   RecName: Full=Cytotoxin 2 {ECO:0000303|PubMed:18381281};
 DE            Short=CX2 {ECO:0000303|PubMed:18381281};
 DE   AltName: Full=Toxin CM-7A {ECO:0000303|PubMed:7210030};
