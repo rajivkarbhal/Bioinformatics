@@ -8,6 +8,7 @@ import subprocess
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 
+# Function for ENSEMBL ID MAPPING
 class ens:
     def __init__(self,url):
         self.url = url
@@ -44,6 +45,7 @@ else:
     print("Please check accession number")
 
 gnnumbvalue = locals().get('gid') #To avoid printing 'NameError' error
+
 
 if gnnumbvalue is not None:
     class ncbi:
