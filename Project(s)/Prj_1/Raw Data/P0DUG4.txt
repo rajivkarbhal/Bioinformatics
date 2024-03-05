@@ -14,7 +14,8 @@ OS   Naja haje haje (Egyptian cobra).
 OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
 OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
 OC   Serpentes; Colubroidea; Elapidae; Elapinae; Naja.
-
+OC   naja naja
+OX   NCBI taxonomy
 RN   [1]
 RP   PROTEIN SEQUENCE, FUNCTION, SUBCELLULAR LOCATION, SUBUNIT, CATALYTIC
 RP   ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND MASS SPECTROMETRY.

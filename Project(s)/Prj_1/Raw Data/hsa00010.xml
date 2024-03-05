@@ -12,10 +12,7 @@
 
     </entry>
     <entry id="45" name="cpd:C00033" type="compound"
-        link="https://www.kegg.jp/dbget-bin/www_bget?C00033">
-        <graphics name="C00033" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="circle" x="146" y="958" width="8" height="8"/>
-    </entry>
+
 
     <entry id="47" name="path:hsa00500" type="map"
         link="https://www.kegg.jp/dbget-bin/www_bget?hsa00500">
