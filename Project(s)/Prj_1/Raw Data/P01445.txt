@@ -17,7 +17,6 @@ RX   PubMed=7210030; DOI=10.1016/0041-0101(80)90053-7;
 RA   Joubert F.J., Taljaard N.;
 RT   "The complete primary structures of three cytotoxins (CM-6, CM-7 and CM-7A)
 RT   from Naja naja kaouthia (Siamese cobra) snake venom.";
-RL   Toxicon 18:455-467(1980).
 RN   [2]
 RP   PROTEIN SEQUENCE OF 6-17; 23-36 AND 45-50, IDENTIFICATION BY MASS
 RP   SPECTROMETRY, FUNCTION, AND SUBUNIT.
