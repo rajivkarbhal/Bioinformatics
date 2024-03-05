@@ -3,28 +3,6 @@ Addition of description
 <entrySet level="2" version="5" xmlns="net:sf:psidev:mi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="net:sf:psidev:mi http://psidev.sourceforge.net/mi/rel25/src/MIF25.xsd">
   <entry>
 
-        <names>
-          <shortLabel>automated_textmining</shortLabel>
-          <fullName>Unsupervised, automated mining of biomedical texts: analysis of protein-protein co-mentioning</fullName>
-        </names>
-        <bibref>
-          <xref>
-            <primaryRef db="pubmed" id="15808823"/>
-            <secondaryRef db="pubmed" id="16046493"/>
-          </xref>
-        </bibref>
-        <hostOrganismList>
-          <hostOrganism ncbiTaxId="0">
-            <names>
-              <shortLabel>other/not applicable</shortLabel>
-            </names>
-          </hostOrganism>
-        </hostOrganismList>
-        <interactionDetectionMethod>
-          <names>
-            <shortLabel>predictive text mining</shortLabel>
-          </names>
-          <xref>
             <primaryRef db="PSI-MI" id="MI:0087"/>
           </xref>
         </interactionDetectionMethod>
