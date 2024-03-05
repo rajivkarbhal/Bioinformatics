@@ -16,11 +16,7 @@
         <graphics name="C00033" fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="146" y="958" width="8" height="8"/>
     </entry>
-    <entry id="46" name="path:hsa00030" type="map"
-        link="https://www.kegg.jp/dbget-bin/www_bget?hsa00030">
-        <graphics name="Pentose phosphate pathway" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="656" y="339" width="62" height="237"/>
-    </entry>
+
     <entry id="47" name="path:hsa00500" type="map"
         link="https://www.kegg.jp/dbget-bin/www_bget?hsa00500">
         <graphics name="Starch and sucrose metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
