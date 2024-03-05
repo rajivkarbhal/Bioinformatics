@@ -1,4 +1,5 @@
 # Addition of line
+# This is added line for testing purpose
 ID   3SA7A_NAJKA             Reviewed;          60 AA.
 AC   P01445;
 DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
