@@ -87,7 +87,7 @@ FT   CHAIN           1..48
 FT                   /note="Phospholipase A2 TI-Nh"
 FT                   /evidence="ECO:0000269|PubMed:19622365"
 FT                   /id="PRO_0000452214"
-FT   ACT_SITE        25
+
 FT                   /evidence="ECO:0000250"
 FT   BINDING         26
 FT                   /ligand="Ca(2+)"
