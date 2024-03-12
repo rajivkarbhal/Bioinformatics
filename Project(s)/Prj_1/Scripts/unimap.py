@@ -8,7 +8,7 @@ import io
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 
-gen = ['P05067','P05050']
+gen = ['P05067','P05050','Q91XI3']
 dbs = ['pdb','dip','intact']
 
 for ecgn in gen:
