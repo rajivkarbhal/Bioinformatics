@@ -382,7 +382,8 @@ REMARK 465     SER A   288
 REMARK 465     GLY A   289                                                      
 REMARK 465     CYS A   290                                                      
 REMARK 465     SER A   291                                                      
-REMARK 465     GLY A   292                                                      
+REMARK 465     GLY A   292
+REMARK 465     SER A   293
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: TORSION ANGLES                                             
