@@ -13,8 +13,6 @@ path.link-undefined {
 	fill: #ffffff;
 	fill-opacity: 0.01;
 	stroke: #666;
-	stroke-width: 2px;
-	stroke-dasharray: 10;
         pointer-events:stroke;
 }
 /* Unknown */ 
