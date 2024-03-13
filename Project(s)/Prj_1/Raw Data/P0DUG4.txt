@@ -107,7 +107,7 @@ FT                   /evidence="ECO:0000305"
 FT   NON_CONS        20..21
 FT                   /evidence="ECO:0000305"
 FT   NON_TER         48
-FT                   /evidence="ECO:0000305"
+
 SQ   SEQUENCE   48 AA;  5481 MW;  9DD392852315A403 CRC64;
      NVYQYRKMLQ CAMPNGGPFE CCQTHDNCYG EAEKLKACTS THSSPYFK
 //
