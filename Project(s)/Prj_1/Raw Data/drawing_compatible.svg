@@ -235,10 +235,6 @@ path.link-smallmolecule-inhibition {
 }
 
 .protein {
-	stroke: #000;
-	stroke-width: 1px;
-	fill: #99cc66;
-	z-index:10000;
 }
 .complex {
 	stroke: #000;
