@@ -47,24 +47,23 @@ else:
 gnnumbvalue = locals().get('gid') #To avoid printing 'NameError' error
 
 
-        
-    NCBI_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=gene&id=%s"%gid
-    gnnm = ncbi(NCBI_url)
-    ndata=gnnm.ncbidata()
-    #print (ndata)
-    rj = ndata.split("_")
-    symbol = rj[0]
-    synnm = rj[1]
-    unp = rj[2]
-    print (unp)
+NCBI_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=gene&id=%s"%gid
+gnnm = ncbi(NCBI_url)
+ndata=gnnm.ncbidata()
+#print (ndata)
+rj = ndata.split("_")
+symbol = rj[0]
+synnm = rj[1]
+unp = rj[2]
+print (unp)
 #$curl = "curl --request POST https://rest.uniprot.org/idmapping/run --form ids=P05067 --form from=UniProtKB_AC-ID --form to=$crossdb";
 
-    output = subprocess.run("curl --request POST https://rest.uniprot.org/idmapping/run --form ids=P05067 --form from=UniProtKB_AC-ID --form to=DIP", shell=True, capture_output=True, text=True)
-    idmap = output.stdout
-    time.sleep(10)
-    if (jobidchk := re.match(r"\{\"jobId\"\:\"(\S+)\"\}", idmap, re.IGNORECASE)):
-        jid = jobidchk.group(1)
-        reslink = "https://rest.uniprot.org/idmapping/stream/%s?format=tsv"%jid
-        #url = "https://rest.ensembl.org/xrefs/id/ENSG00000139618?"
-        unpresponse = requests.get(reslink)
-        print (unpresponse.text)
+output = subprocess.run("curl --request POST https://rest.uniprot.org/idmapping/run --form ids=P05067 --form from=UniProtKB_AC-ID --form to=DIP", shell=True, capture_output=True, text=True)
+idmap = output.stdout
+time.sleep(10)
+if (jobidchk := re.match(r"\{\"jobId\"\:\"(\S+)\"\}", idmap, re.IGNORECASE)):
+    jid = jobidchk.group(1)
+    reslink = "https://rest.uniprot.org/idmapping/stream/%s?format=tsv"%jid
+    #url = "https://rest.ensembl.org/xrefs/id/ENSG00000139618?"
+    unpresponse = requests.get(reslink)
+    print (unpresponse.text)
