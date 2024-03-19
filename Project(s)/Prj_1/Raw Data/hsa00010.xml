@@ -8,9 +8,6 @@
         <graphics name="ALDOA, ALDA, GSD12, HEL-S-87p..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="483" y="407" width="46" height="17"/>
 
-    </entry>
-    <entry id="45" name="cpd:C00033" type="compound"
-
 
     <entry id="47" name="path:hsa00500" type="map"
         link="https://www.kegg.jp/dbget-bin/www_bget?hsa00500">
