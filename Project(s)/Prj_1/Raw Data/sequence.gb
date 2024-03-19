@@ -4,7 +4,6 @@ LOCUS       HUMINSR                 4723 bp    mRNA    linear   PRI 06-JAN-1995
 DEFINITION  Human insulin receptor mRNA, complete cds.
 VERSION     M10051.2
 KEYWORDS    insulin receptor; tyrosine kinase.
-SOURCE      Homo sapiens (human)
   ORGANISM  Homo sapiens
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
