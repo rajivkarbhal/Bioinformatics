@@ -23,9 +23,6 @@ RP   ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND MASS SPECTROMETRY.
 RC   TISSUE=Venom;
 RX   PubMed=19622365; DOI=10.1016/j.toxicon.2009.07.011;
 RA   Osipov A.V., Filkin S.Y., Makarova Y.V., Tsetlin V.I., Utkin Y.N.;
-RT   "A new type of thrombin inhibitor, noncytotoxic phospholipase A2, from the
-RT   Naja haje cobra venom.";
-
 CC   -!- FUNCTION: Phospholipase A2 with weak enzymatic activity, which
 CC       partially inhibits thrombin enzymatic activity (Ki=73 nM), completely
 CC       inhibits thrombin-induced platelet aggregation and retards fibrin clot
