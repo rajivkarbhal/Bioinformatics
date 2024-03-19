@@ -23,9 +23,7 @@ REVDAT   5   11-OCT-17 1RAJ    1       REMARK
 REVDAT   4   13-JUL-11 1RAJ    1       VERSN                                    
 REVDAT   3   24-FEB-09 1RAJ    1       VERSN                                    
 REVDAT   2   07-SEP-04 1RAJ    1       JRNL                                     
-REVDAT   1   17-AUG-04 1RAJ    0                                                                                 
-REMARK   2                                                                      
-REMARK   3                                                                      
+REVDAT   1   17-AUG-04 1RAJ    0                                                                                                                                                  
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS                                                  
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
