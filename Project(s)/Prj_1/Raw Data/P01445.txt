@@ -1,6 +1,5 @@
 # Addition of line
 # This is added line for testing purpose
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ID   3SA7A_NAJKA             Reviewed;          60 AA.
 DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
 DT   21-JUL-1986, sequence version 1.
