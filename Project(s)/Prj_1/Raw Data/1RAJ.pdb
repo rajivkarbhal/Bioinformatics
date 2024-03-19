@@ -2,8 +2,7 @@
 HEADER    TRANSFERASE                             31-OCT-03   1RAJ              
 TITLE     POLIOVIRUS POLYMERASE WITH A 68 RESIDUE N-TERMINAL TRUNCATION                                                                   
 COMPND   2 MOLECULE: GENOME POLYPROTEIN;                                                                                                 
-COMPND   4 FRAGMENT: RNA-DIRECTED RNA POLYMERASE;                               
-COMPND   5 SYNONYM: P3D;                                                                                                           
+COMPND   4 FRAGMENT: RNA-DIRECTED RNA POLYMERASE;                                                                                                                                         
 COMPND   7 ENGINEERED: YES;                                                     
 COMPND   8 MUTATION: YES                                                                                                                 
 SOURCE   2 ORGANISM_SCIENTIFIC: HUMAN POLIOVIRUS 1;                             
