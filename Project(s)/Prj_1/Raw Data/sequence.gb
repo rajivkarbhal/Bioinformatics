@@ -34,6 +34,7 @@ FEATURES             Location/Qualifiers
      source          1..4723
                      /organism="Homo sapiens"
                      /mol_type="mRNA"
+                     /mol_type="cDNA"
                      /db_xref="taxon:9606"
                      /map="19p13.3-p13.2"
      gene            1..4723
