@@ -1,5 +1,4 @@
 # This is UniProt protein sequence file Protein
-# Rajivmk
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 ID   PA2TI_NAJHH             Reviewed;          48 AA.
 AC   P0DUG4;
