@@ -35,6 +35,15 @@ path.link-undefined-unknown {
 	stroke-dasharray: 15 15;
         pointer-events:stroke;
 }
+path.link-undefined-unknown {
+	z-index:10000;
+	fill: #ffffff;
+	fill-opacity: 0.01;
+	stroke: #777777;
+	stroke-width: 2px;
+	stroke-dasharray: 15 15;
+        pointer-events:stroke;
+}
 path.link-transcription-unknown {
 	z-index:10000;
 	fill: #ffffff;

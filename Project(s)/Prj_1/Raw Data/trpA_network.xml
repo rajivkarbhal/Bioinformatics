@@ -1013,17 +1013,6 @@ Addition of description
             <interactorRef>106</interactorRef>
           </participant>
         </participantList>
-        <confidenceList>
-          <confidence>
-            <unit>
-              <names>
-                <shortLabel>likelihood</shortLabel>
-                <fullName>estimated likelihood of predicted functional association being true positive</fullName>
-              </names>
-            </unit>
-            <value>0.906</value>
-          </confidence>
-        </confidenceList>
       </interaction>
     </interactionList>  </entry>
 </entrySet>
