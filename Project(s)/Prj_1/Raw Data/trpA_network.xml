@@ -27,8 +27,6 @@
               <shortLabel>other/not applicable</shortLabel>
             </names>
           </hostOrganism>
-        </hostOrganismList>
-        <interactionDetectionMethod>
           <names>
             <shortLabel>experimental knowledge based</shortLabel>
           </names>

@@ -8,7 +8,6 @@ path.link {
 	stroke-width: 2px;
         pointer-events:stroke;
 }
-/* Unknown */ 
 path.link-unknown {
 	z-index:10000;
 	fill: #ffffff;
