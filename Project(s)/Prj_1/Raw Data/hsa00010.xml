@@ -7,13 +7,6 @@
         link="https://www.kegg.jp/dbget-bin/www_bget?hsa:226+hsa:229+hsa:230">
         <graphics name="ALDOA, ALDA, GSD12, HEL-S-87p..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="483" y="407" width="46" height="17"/>
-
-
-    <entry id="47" name="path:hsa00500" type="map"
-        link="https://www.kegg.jp/dbget-bin/www_bget?hsa00500">
-        <graphics name="Starch and sucrose metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="484" y="76" width="110" height="34"/>
-    </entry>
     <entry id="48" name="ko:K01568" type="ortholog" reaction="rn:R00755"
         link="https://www.kegg.jp/dbget-bin/www_bget?K01568">
         <graphics name="K01568" fgcolor="#000000" bgcolor="#FFFFFF"
