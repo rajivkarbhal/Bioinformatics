@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /map="19p13.3-p13.2"
      gene            1..4723
                      /gene="INSR"
-     sig_peptide     137..219
+     sig_peptide     137..21900
                      /gene="INSR"
                      /note="insulin receptor signal peptide"
      CDS             139..4287
