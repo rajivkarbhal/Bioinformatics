@@ -5,6 +5,7 @@ import re
 from googletrans import Translator
 nlp = spacy.load("en_core_web_sm")
 # It is comment line
+# It is task check line
 testout = open("extracntr.txt","w",encoding='utf-8')
 with open('spcctout.txt', 'r') as file:
 	for line in file:
