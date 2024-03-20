@@ -203,6 +203,7 @@
             <shortLabel>gene neighborhoods</shortLabel>
           </names>
           <xref>
+            # EXE check
             <primaryRef db="PSI-MI" id="MI:0057"/>
           </xref>
         </interactionDetectionMethod>

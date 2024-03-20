@@ -1,8 +1,6 @@
 path.link {
 	z-index:10000;
 	fill: #ffffff;
-	fill-opacity: 0.01;
-	stroke: #666;
 	stroke-width: 2px;
         pointer-events:stroke;
 }

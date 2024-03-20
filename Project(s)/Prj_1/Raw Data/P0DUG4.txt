@@ -1,5 +1,6 @@
 # This is UniProt protein sequence file Protein
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
+# Exe check
 ID   PA2TI_NAJHH             Reviewed;          48 AA.
 AC   P0DUG4;
 DT   07-APR-2021, integrated into UniProtKB/Swiss-Prot.
