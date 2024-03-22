@@ -7,9 +7,6 @@
           <names>
             <shortLabel>other/not applicable</shortLabel>
           </names>
-          <xref>
-            <primaryRef db="PSI-MI" id="MI:0686"/>
-          </xref>
         <names>
           <shortLabel>knowledge datamining</shortLabel>
           <fullName>Import of protein-protein association information from curated knowledge databases</fullName>
