@@ -14,12 +14,6 @@
   <RUN_LINKS>
     <RUN_LINK>
       <XREF_LINK>
-        <DB>ENA-SUBMISSION</DB>
-        <ID>SRA992825</ID>
-      </XREF_LINK>
-    </RUN_LINK>
-    <RUN_LINK>
-      <XREF_LINK>
         <DB>ENA-STUDY</DB>
         <ID>SRP188892</ID>
       </XREF_LINK>
